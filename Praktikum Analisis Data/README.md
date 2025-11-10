@@ -114,18 +114,4 @@ Program ini membantu menemukan wawasan dari data siswa seperti:
 
 ---
 
-<p align="center">
-  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZTg4ODliYWFlOGMyZjg1Y2M3YWU5OTM0NjA1YjUwNDU2MDhlMjczZCZjdD1n/g9582DNuQppxC/giphy.gif" width="200" alt="rocket animation"><br>
-  <b>💙 Dibuat oleh:</b><br>
-  <b>Hizkia Agellvin Girsang</b><br>
-  <b>Kelas: XI RPL 3</b><br>
-  <i>SMK Negeri — Project Analisis Nilai Siswa</i>
-</p>
 
----
-
-<h3 align="center">🌈 Terima kasih telah melihat proyek ini! 🌈</h3>
-
-<p align="center">
-  <img src="https://media.giphy.com/media/l0MYC0LajbaPoEADu/giphy.gif" width="300" alt="Thank You Animation"/>
-</p>
