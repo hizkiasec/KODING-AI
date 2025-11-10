@@ -1,109 +1,42 @@
-<h1 align="center">🌟 Analisis Nilai Siswa 📊</h1>
+<h1 align="center">📊💡 ANALISIS NILAI SISWA 💡📊</h1>
 
 <p align="center">
-  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZGNmNjUwNzQxNzgyYjMyMWU2ZDI0Yzc3YmFlMDNlZjZmZTljZGEzNCZjdD1n/26Fxy3Iz1ari8oytO/giphy.gif" width="120" alt="analysis animation">
+  <img src="https://img.shields.io/badge/Python-3.9+-blue?logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/Project-Data%20Analysis-green?style=flat-square" />
+  <img src="https://img.shields.io/badge/Developer-Hizkia%20Agellvin%20Girsang-blueviolet?style=flat-square" />
 </p>
 
 <p align="center">
-  <b>Analisis Data Nilai Siswa Menggunakan Python, Pandas, dan Matplotlib</b><br>
-  📈 Statistik Deskriptif | 🧠 Visualisasi Data | 🧩 Insight Nilai Siswa
-</p>
-
----
-
-## 🧩 Deskripsi Singkat
-Program ini dirancang untuk melakukan **analisis data nilai siswa** menggunakan bahasa pemrograman **Python**.  
-Dengan bantuan library **Pandas** dan **Matplotlib**, sistem mampu:
-- Membaca dataset nilai siswa (`nilai_siswa.csv`)
-- Menghitung **rata-rata, median, modus, nilai maksimum, dan minimum**
-- Membuat **visualisasi nilai per mata pelajaran**
-- Menampilkan **hasil analisis dalam bentuk tabel dan grafik interaktif**
-
----
-
-## ⚙️ Teknologi yang Digunakan
-<p align="center">
-  <img src="https://img.shields.io/badge/Python-3.x-blue?style=for-the-badge&logo=python">
-  <img src="https://img.shields.io/badge/Pandas-Data%20Analysis-green?style=for-the-badge&logo=pandas">
-  <img src="https://img.shields.io/badge/Matplotlib-Visualization-orange?style=for-the-badge&logo=plotly">
+  <img src="https://media.giphy.com/media/jRf5fsn8G6YaogAWxn/giphy.gif" width="250" alt="Data Animation"/>
 </p>
 
 ---
 
-## 📂 Struktur Dataset
-| Kolom | Deskripsi |
-|--------|------------|
-| 🧑 `Nama` | Nama siswa |
-| 📚 `Matpel` | Nama mata pelajaran |
-| 🧾 `Nilai` | Nilai siswa dalam bentuk angka |
+## 🧩 Tentang Proyek
+**Analisis Nilai Siswa** adalah program Python sederhana namun informatif yang dirancang untuk **menganalisis data nilai siswa** dari file CSV.  
+Dengan program ini, kamu bisa melihat:
+- Rata-rata nilai keseluruhan siswa  
+- Nilai tertinggi dan terendah  
+- Statistik performa siswa secara otomatis  
 
-📊 Total Data: **22 baris**
-
----
-
-## 🔍 Proses Analisis
-1. Membaca dataset menggunakan `pandas.read_csv()`
-2. Menampilkan struktur kolom dan info dataset
-3. Menghasilkan **statistik deskriptif** (`mean`, `median`, `mode`, `min`, `max`)
-4. Mengelompokkan data berdasarkan **mata pelajaran**
-5. Membuat **visualisasi grafik** menggunakan Matplotlib
+💫 Tujuannya adalah melatih logika dasar pemrograman dan analisis data menggunakan **Python**.
 
 ---
 
-## 📈 Hasil Analisis Utama
-| Statistik | Nilai |
-|------------|--------|
-| **Rata-rata** | 86.32 |
-| **Median** | 86.5 |
-| **Modus** | 85 |
-| **Nilai Maksimum** | 98 |
-| **Nilai Minimum** | 75 |
+## ⚙️ Fitur Utama
+✨ Membaca file **`nilai_siswa.csv`** secara otomatis  
+📊 Menghitung nilai rata-rata seluruh siswa  
+🏅 Menentukan siapa yang mendapat nilai tertinggi & terendah  
+📈 Menampilkan hasil analisis dalam format yang mudah dipahami  
 
 ---
 
-## 📘 Nilai Tertinggi & Terendah per Mapel
-| Mata Pelajaran | 🔝 Tertinggi | 🔻 Terendah |
-|----------------|---------------|-------------|
-| Bahasa Indonesia | 88 | 75 |
-| Bahasa Inggris | 90 | 78 |
-| Fisika | 95 | 75 |
-| Matematika | 98 | 85 |
-| Produktif | 90 | 80 |
-
----
-
-## 🎨 Visualisasi
-<p align="center">
-  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMTlmNjVjOTQ0ZjdiMmZmYWQ2MzkxMTI2MTZhNjM4ZWY3MTY4ZDA5ZCZjdD1n/PjeG2bHiBkqQ0/giphy.gif" width="250" alt="bar chart animation">
-</p>
-
-**Tampilan Visualisasi:**
-- Grafik distribusi nilai siswa  
-- Grafik perbandingan nilai rata-rata per mata pelajaran  
-
----
-
-## 💡 Insight & Kesimpulan
-✨ Nilai rata-rata siswa **86.32**, menandakan performa belajar yang tinggi.  
-📚 **Matematika** memiliki nilai tertinggi (98).  
-⚛️ **Fisika** menunjukkan variasi nilai terbesar, menandakan tingkat kesulitan tinggi.  
-📊 Distribusi nilai cenderung normal — mayoritas siswa memiliki nilai 85–90.  
-
----
-
-## 🧠 Pengembangan Lanjutan
-🚀 Ide untuk pengembangan berikutnya:
-- Menambahkan **analisis tren nilai per siswa**
-- Integrasi dengan **dashboard interaktif (Streamlit / Dash)**
-- Export hasil analisis ke **PDF otomatis**
-- Implementasi **machine learning sederhana** untuk prediksi nilai
-
----
-
-<p align="center">
-  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZTg4ODliYWFlOGMyZjg1Y2M3YWU5OTM0NjA1YjUwNDU2MDhlMjczZCZjdD1n/g9582DNuQppxC/giphy.gif" width="180" alt="rocket animation"><br>
-  <b>💙 Dibuat oleh:</b><br>
-  <b>Hizkia Agellvin Girsang</b><br>
-  <b>Kelas: XI RPL 3</b><br>
-  <i>SMK Negeri — Project Analisis Nilai Siswa</i>
-</p>
+## 🚀 Cara Menjalankan
+1. Pastikan **Python 3.x** sudah terinstal.  
+2. Letakkan file berikut di folder yang sama:
+   - `analisis_nilai.py`
+   - `nilai_siswa.csv`
+3. Buka terminal / command prompt di folder tersebut.  
+4. Jalankan perintah berikut:
+   ```bash
+   python analisis_nilai.py
