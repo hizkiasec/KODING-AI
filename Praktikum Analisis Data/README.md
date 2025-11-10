@@ -1,23 +1,106 @@
-# 🧠 Analisis Nilai Siswa
+<h1 align="center">🌟 Analisis Nilai Siswa 📊</h1>
 
-## 📄 Deskripsi Umum
-Proyek ini merupakan implementasi sederhana dari analisis data berbasis **Python** menggunakan library **pandas**. Program `analisis_nilai.py` dirancang untuk membaca dataset nilai siswa dari file `nilai_siswa.csv`, kemudian melakukan proses analisis statistik deskriptif guna memperoleh gambaran umum performa siswa berdasarkan mata pelajaran.
+<p align="center">
+  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZGNmNjUwNzQxNzgyYjMyMWU2ZDI0Yzc3YmFlMDNlZjZmZTljZGEzNCZjdD1n/26Fxy3Iz1ari8oytO/giphy.gif" width="120" alt="analysis animation">
+</p>
 
-Analisis ini meliputi:
-- Pemeriksaan struktur dataset.  
-- Perhitungan statistik utama (mean, median, modus, nilai maksimum, dan minimum).  
-- Pengelompokan data berdasarkan mata pelajaran.  
-- Visualisasi hasil analisis dalam bentuk grafik (output `Figure`).
+<p align="center">
+  <b>Analisis Data Nilai Siswa Menggunakan Python, Pandas, dan Matplotlib</b><br>
+  📈 Statistik Deskriptif | 🧠 Visualisasi Data | 🧩 Insight Nilai Siswa
+</p>
 
 ---
 
-## ⚙️ Komponen dan Dependensi
-Program ini dikembangkan dengan dependensi utama berikut:
-- **Python 3.x**
-- **pandas**
-- **matplotlib**
+## 🧩 Deskripsi Singkat
+Program ini dirancang untuk melakukan **analisis data nilai siswa** menggunakan bahasa pemrograman **Python**.  
+Dengan bantuan library **Pandas** dan **Matplotlib**, sistem mampu:
+- Membaca dataset nilai siswa (`nilai_siswa.csv`)
+- Menghitung **rata-rata, median, modus, nilai maksimum, dan minimum**
+- Membuat **visualisasi nilai per mata pelajaran**
+- Menampilkan **hasil analisis dalam bentuk tabel dan grafik interaktif**
 
-Instalasi dapat dilakukan melalui perintah:
-```bash
-pip install pandas matplotlib
-"# KODING-AI" 
+---
+
+## ⚙️ Teknologi yang Digunakan
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3.x-blue?style=for-the-badge&logo=python">
+  <img src="https://img.shields.io/badge/Pandas-Data%20Analysis-green?style=for-the-badge&logo=pandas">
+  <img src="https://img.shields.io/badge/Matplotlib-Visualization-orange?style=for-the-badge&logo=plotly">
+</p>
+
+---
+
+## 📂 Struktur Dataset
+| Kolom | Deskripsi |
+|--------|------------|
+| 🧑 `Nama` | Nama siswa |
+| 📚 `Matpel` | Nama mata pelajaran |
+| 🧾 `Nilai` | Nilai siswa dalam bentuk angka |
+
+📊 Total Data: **22 baris**
+
+---
+
+## 🔍 Proses Analisis
+1. Membaca dataset menggunakan `pandas.read_csv()`
+2. Menampilkan struktur kolom dan info dataset
+3. Menghasilkan **statistik deskriptif** (`mean`, `median`, `mode`, `min`, `max`)
+4. Mengelompokkan data berdasarkan **mata pelajaran**
+5. Membuat **visualisasi grafik** menggunakan Matplotlib
+
+---
+
+## 📈 Hasil Analisis Utama
+| Statistik | Nilai |
+|------------|--------|
+| **Rata-rata** | 86.32 |
+| **Median** | 86.5 |
+| **Modus** | 85 |
+| **Nilai Maksimum** | 98 |
+| **Nilai Minimum** | 75 |
+
+---
+
+## 📘 Nilai Tertinggi & Terendah per Mapel
+| Mata Pelajaran | 🔝 Tertinggi | 🔻 Terendah |
+|----------------|---------------|-------------|
+| Bahasa Indonesia | 88 | 75 |
+| Bahasa Inggris | 90 | 78 |
+| Fisika | 95 | 75 |
+| Matematika | 98 | 85 |
+| Produktif | 90 | 80 |
+
+---
+
+## 🎨 Visualisasi
+<p align="center">
+  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMTlmNjVjOTQ0ZjdiMmZmYWQ2MzkxMTI2MTZhNjM4ZWY3MTY4ZDA5ZCZjdD1n/PjeG2bHiBkqQ0/giphy.gif" width="250" alt="bar chart animation">
+</p>
+
+**Tampilan Visualisasi:**
+- Grafik distribusi nilai siswa  
+- Grafik perbandingan nilai rata-rata per mata pelajaran  
+
+---
+
+## 💡 Insight & Kesimpulan
+✨ Nilai rata-rata siswa **86.32**, menandakan performa belajar yang tinggi.  
+📚 **Matematika** memiliki nilai tertinggi (98).  
+⚛️ **Fisika** menunjukkan variasi nilai terbesar, menandakan tingkat kesulitan tinggi.  
+📊 Distribusi nilai cenderung normal — mayoritas siswa memiliki nilai 85–90.  
+
+---
+
+## 🧠 Pengembangan Lanjutan
+🚀 Ide untuk pengembangan berikutnya:
+- Menambahkan **analisis tren nilai per siswa**
+- Integrasi dengan **dashboard interaktif (Streamlit / Dash)**
+- Export hasil analisis ke **PDF otomatis**
+- Implementasi **machine learning sederhana** untuk prediksi nilai
+
+---
+
+<p align="center">
+  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZTg4ODliYWFlOGMyZjg1Y2M3YWU5OTM0NjA1YjUwNDU2MDhlMjczZCZjdD1n/g9582DNuQppxC/giphy.gif" width="180" alt="rocket animation"><br>
+  <b>💙 Dibuat dengan semangat belajar oleh Hizkia Agellvin G - X RPL4 💙</b>
+</p>
