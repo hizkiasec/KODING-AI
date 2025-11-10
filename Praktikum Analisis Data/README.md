@@ -1,62 +1,70 @@
-<h1 align="center">🌟 Analisis Nilai Siswa 📊</h1>
+<!-- 🎓 README.md | Project by Hizkia Agellvin Girsang -->
+
+<h1 align="center">🌟📊 ANALISIS NILAI SISWA 📊🌟</h1>
 
 <h3 align="center">👨‍💻 Hizkia Agellvin Girsang | XI RPL 3 👨‍💻</h3>
 
 <p align="center">
-  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZGNmNjUwNzQxNzgyYjMyMWU2ZDI0Yzc3YmFlMDNlZjZmZTljZGEzNCZjdD1n/26Fxy3Iz1ari8oytO/giphy.gif" width="140" alt="analysis animation">
-</p>
-
-<p align="center">
-  <b>Analisis Data Nilai Siswa Menggunakan Python, Pandas, dan Matplotlib</b><br>
-  📈 Statistik Deskriptif | 🧠 Visualisasi Data | 🧩 Insight Nilai Siswa
+  <img src="https://media.giphy.com/media/L8K62iTDkzGX6/giphy.gif" width="280" alt="coding animation"/>
 </p>
 
 ---
 
-## 🧩 Deskripsi Singkat
-Program ini dirancang untuk melakukan **analisis data nilai siswa** menggunakan bahasa pemrograman **Python**.  
-Dengan bantuan library **Pandas** dan **Matplotlib**, sistem mampu:
-- Membaca dataset nilai siswa (`nilai_siswa.csv`)
-- Menghitung **rata-rata, median, modus, nilai maksimum, dan minimum**
-- Membuat **visualisasi nilai per mata pelajaran**
-- Menampilkan **hasil analisis dalam bentuk tabel dan grafik interaktif**
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3.x-blue?style=for-the-badge&logo=python&logoColor=yellow">
+  <img src="https://img.shields.io/badge/Pandas-Data%20Analysis-green?style=for-the-badge&logo=pandas">
+  <img src="https://img.shields.io/badge/Matplotlib-Visualization-orange?style=for-the-badge&logo=plotly">
+  <img src="https://img.shields.io/badge/Developer-Hizkia%20Agellvin%20Girsang-blueviolet?style=for-the-badge">
+</p>
+
+---
+
+## 🧠 Tentang Proyek
+**Analisis Nilai Siswa** adalah program Python interaktif yang menganalisis data nilai siswa menggunakan **Pandas** dan **Matplotlib**.  
+Program ini membantu menemukan wawasan dari data siswa seperti:
+- 📊 Statistik deskriptif (mean, median, modus, maksimum, minimum)
+- 🧩 Nilai tertinggi & terendah per mata pelajaran
+- 🎨 Visualisasi data interaktif dalam bentuk grafik
+
+💡 Tujuannya adalah melatih pemahaman tentang **data science dasar**, serta menerapkan analisis data di dunia pendidikan.
 
 <p align="center">
-  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExY2E1YzI3ZWRlY2RjNjZhY2Q3OGU2NjQ4ZmQxNDUyZjQ0ZWZjMzRhMCZjdD1n/xT9IgzoKnwFNmISR8I/giphy.gif" width="400" alt="data animation">
+  <img src="https://media.giphy.com/media/ZVik7pBtu9dNS/giphy.gif" width="420" alt="Data Animation"/>
 </p>
 
 ---
 
 ## ⚙️ Teknologi yang Digunakan
-<p align="center">
-  <img src="https://img.shields.io/badge/Python-3.x-blue?style=for-the-badge&logo=python&logoColor=yellow">
-  <img src="https://img.shields.io/badge/Pandas-Data%20Analysis-green?style=for-the-badge&logo=pandas">
-  <img src="https://img.shields.io/badge/Matplotlib-Visualization-orange?style=for-the-badge&logo=plotly">
-</p>
+| Teknologi | Keterangan |
+|------------|------------|
+| 🐍 **Python 3.x** | Bahasa pemrograman utama |
+| 📘 **Pandas** | Analisis dan manipulasi data |
+| 📊 **Matplotlib** | Visualisasi data dalam bentuk grafik |
+| 📄 **CSV File** | Format penyimpanan dataset nilai siswa |
 
 ---
 
 ## 📂 Struktur Dataset
 | Kolom | Deskripsi |
 |--------|------------|
-| 🧑 `Nama` | Nama siswa |
+| 🧑 `Nama` | Nama lengkap siswa |
 | 📚 `Matpel` | Nama mata pelajaran |
-| 🧾 `Nilai` | Nilai siswa dalam bentuk angka |
+| 🧾 `Nilai` | Nilai siswa dalam angka (0–100) |
 
-📊 **Total Data:** 22 baris
+📊 Jumlah data yang dianalisis: **22 baris**
 
 ---
 
 ## 🔍 Proses Analisis
 1. Membaca dataset menggunakan `pandas.read_csv()`
-2. Menampilkan struktur kolom dan informasi dataset
-3. Menghasilkan **statistik deskriptif** (`mean`, `median`, `mode`, `min`, `max`)
-4. Mengelompokkan data berdasarkan **mata pelajaran**
-5. Membuat **visualisasi grafik** menggunakan Matplotlib
+2. Menampilkan struktur dan info kolom dataset
+3. Menghitung **statistik deskriptif**: rata-rata, median, modus, nilai tertinggi & terendah
+4. Mengelompokkan nilai berdasarkan **mata pelajaran**
+5. Membuat **grafik batang & distribusi nilai** menggunakan `matplotlib.pyplot`
 
 ---
 
-## 📈 Hasil Analisis Utama
+## 📈 Hasil Analisis
 | Statistik | Nilai |
 |------------|--------|
 | **Rata-rata** | 86.32 |
@@ -67,9 +75,9 @@ Dengan bantuan library **Pandas** dan **Matplotlib**, sistem mampu:
 
 ---
 
-## 📘 Nilai Tertinggi & Terendah per Mapel
+## 🏫 Nilai Tertinggi & Terendah per Mapel
 | Mata Pelajaran | 🔝 Tertinggi | 🔻 Terendah |
-|----------------|---------------|-------------|
+|----------------|--------------|-------------|
 | Bahasa Indonesia | 88 | 75 |
 | Bahasa Inggris | 90 | 78 |
 | Fisika | 95 | 75 |
@@ -80,34 +88,34 @@ Dengan bantuan library **Pandas** dan **Matplotlib**, sistem mampu:
 
 ## 🎨 Visualisasi
 <p align="center">
-  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMTlmNjVjOTQ0ZjdiMmZmYWQ2MzkxMTI2MTZhNjM4ZWY3MTY4ZDA5ZCZjdD1n/PjeG2bHiBkqQ0/giphy.gif" width="260" alt="bar chart animation">
+  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMTlmNjVjOTQ0ZjdiMmZmYWQ2MzkxMTI2MTZhNjM4ZWY3MTY4ZDA5ZCZjdD1n/PjeG2bHiBkqQ0/giphy.gif" width="250" alt="Chart Animation"/>
 </p>
 
-**Tampilan Visualisasi:**
-- 📊 Grafik distribusi nilai siswa  
-- 🧮 Grafik perbandingan nilai rata-rata per mata pelajaran  
+**Visualisasi yang dihasilkan:**
+- Grafik distribusi nilai siswa  
+- Grafik perbandingan rata-rata nilai antar mata pelajaran  
+- Diagram batang untuk melihat variasi nilai  
 
 ---
 
 ## 💡 Insight & Kesimpulan
-✨ Nilai rata-rata siswa **86.32**, menandakan performa belajar yang tinggi.  
-📚 **Matematika** memiliki nilai tertinggi (**98**).  
-⚛️ **Fisika** menunjukkan variasi nilai terbesar, menandakan tingkat kesulitan tinggi.  
-📊 Distribusi nilai cenderung **normal**, mayoritas siswa memiliki nilai antara **85–90**.  
+✨ Rata-rata nilai siswa **86.32**, menunjukkan performa belajar yang baik.  
+📘 **Matematika** memiliki nilai tertinggi (**98**) dan konsistensi bagus.  
+⚛️ **Fisika** menunjukkan variasi besar antara nilai tertinggi dan terendah, menandakan kesulitan relatif tinggi.  
+📊 Sebagian besar nilai berada pada kisaran **85–90**, menunjukkan distribusi yang normal.  
 
 ---
 
-## 🧠 Pengembangan Lanjutan
-🚀 Ide untuk pengembangan berikutnya:
-- Analisis **tren nilai per siswa** dari waktu ke waktu  
-- Integrasi **dashboard interaktif** dengan Streamlit/Dash  
-- Export hasil analisis ke **PDF otomatis**  
-- Implementasi **machine learning sederhana** untuk prediksi nilai  
+## 🚀 Rencana Pengembangan
+🔹 Menambahkan **fitur analisis tren nilai per siswa**  
+🔹 Integrasi dengan **dashboard interaktif (Streamlit / Dash)**  
+🔹 Export hasil analisis ke **PDF otomatis**  
+🔹 Menambahkan **prediksi nilai** menggunakan *machine learning sederhana*  
 
 ---
 
 <p align="center">
-  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZTg4ODliYWFlOGMyZjg1Y2M3YWU5OTM0NjA1YjUwNDU2MDhlMjczZCZjdD1n/g9582DNuQppxC/giphy.gif" width="180" alt="rocket animation"><br>
+  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZTg4ODliYWFlOGMyZjg1Y2M3YWU5OTM0NjA1YjUwNDU2MDhlMjczZCZjdD1n/g9582DNuQppxC/giphy.gif" width="200" alt="rocket animation"><br>
   <b>💙 Dibuat oleh:</b><br>
   <b>Hizkia Agellvin Girsang</b><br>
   <b>Kelas: XI RPL 3</b><br>
@@ -116,7 +124,8 @@ Dengan bantuan library **Pandas** dan **Matplotlib**, sistem mampu:
 
 ---
 
+<h3 align="center">🌈 Terima kasih telah melihat proyek ini! 🌈</h3>
+
 <p align="center">
-  <img src="https://media.giphy.com/media/26gssIytJvy1b1THO/giphy.gif" width="260" alt="thank you animation"><br>
-  <b>🌈 Terima kasih telah melihat proyek ini! 🌈</b>
+  <img src="https://media.giphy.com/media/l0MYC0LajbaPoEADu/giphy.gif" width="300" alt="Thank You Animation"/>
 </p>
