@@ -102,5 +102,8 @@ Dengan bantuan library **Pandas** dan **Matplotlib**, sistem mampu:
 
 <p align="center">
   <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZTg4ODliYWFlOGMyZjg1Y2M3YWU5OTM0NjA1YjUwNDU2MDhlMjczZCZjdD1n/g9582DNuQppxC/giphy.gif" width="180" alt="rocket animation"><br>
-  <b>💙 Dibuat dengan semangat belajar oleh Hizkia Agellvin G - X RPL4 💙</b>
+  <b>💙 Dibuat oleh:</b><br>
+  <b>Hizkia Agellvin Girsang</b><br>
+  <b>Kelas: XI RPL 3</b><br>
+  <i>SMK Negeri — Project Analisis Nilai Siswa</i>
 </p>
