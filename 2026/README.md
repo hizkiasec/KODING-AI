@@ -46,29 +46,56 @@ Project ini dibuat sebagai latihan **Object Oriented Programming** dengan konsep
 
 ---
 
-## ⚔ Sample Battle
+## ⚔ Sample Output Program
 
 Layla menyerang Zilong!  
-Zilong terkena damage 15  
+Zilong terkena damage 15. Sisa HP: 105  
 
-Eudora menggunakan Fireball!  
-Balmond terkena damage 60  
+Eudora menggunakan Fireball ke Balmond!  
+Balmond terkena damage 60. Sisa HP: 110  
+
+Eudora (Mage) menembakkan Bola Api!  
+Miya (Archer) memanah dari jauh!  
+Zilong (Fighter) memukul dengan pedang!  
+
+Saya adalah Hero: Alucard  
+Saya adalah Monster: Serigala  
+Hero Alucard menebas Serigala!  
+Monster Serigala menggigit Alucard!  
 
 ---
 
-## 🧠 OOP Core
+## 🧪 Analisis Praktikum
+
+Pada praktikum ini dilakukan implementasi konsep **Object Oriented Programming (OOP)** menggunakan Python dalam bentuk game RPG sederhana.
+
+Tahapan praktikum:
+
+1. Membuat class Hero dan Monster  
+2. Menerapkan atribut private untuk HP  
+3. Menambahkan setter dan getter  
+4. Membuat turunan Mage dari Hero  
+5. Mengimplementasikan polymorphism melalui method `serang()`  
+6. Menggunakan abstract class sebagai blueprint GameUnit  
+
+Hasil praktikum menunjukkan bahwa setiap konsep OOP dapat bekerja dengan baik dan saling terintegrasi.
+
+---
+
+## 🧠 Analisis Konsep OOP
 
 ### 🔒 Encapsulation
-HP dibuat private agar aman.
+HP dibuat private sehingga tidak bisa diubah langsung dari luar class.  
+Setter menjaga agar nilai HP tetap valid.
 
 ### 🧬 Inheritance
-Mage mewarisi Hero dengan kemampuan tambahan.
+Class Mage mewarisi Hero dan menambahkan skill Fireball.
 
 ### 🎭 Polymorphism
-Method sama → hasil beda.
+Method `serang()` menghasilkan aksi berbeda sesuai jenis karakter.
 
 ### 📐 Abstract Class
-Blueprint memaksa struktur seragam.
+GameUnit memaksa semua turunan memiliki method `serang()` dan `info()`.
 
 ---
 
@@ -80,29 +107,28 @@ python abstract_gameunit.py
 
 ---
 
-## 🏆 My Analysis
+## 📊 Hasil Praktikum
 
-Project ini menunjukkan bahwa:
+✔ Program berjalan tanpa error  
+✔ Output tampil sesuai desain  
+✔ Setiap hero memiliki serangan unik  
+✔ Sistem HP bekerja dengan benar  
+✔ Abstract class berhasil diterapkan  
 
-✔ OOP membuat kode rapi  
-✔ Class mempermudah pengembangan  
-✔ Sistem battle modular  
-✔ Karakter mudah ditambah  
-✔ Game logic scalable  
-
-Pendekatan RPG membuat OOP lebih mudah dipahami.
+Mini RPG ini berhasil membuktikan penerapan OOP secara nyata.
 
 ---
 
-## 🌟 Final Conclusion
+## 🏆 Kesimpulan
 
-Mini RPG ini membuktikan bahwa:
+Dari praktikum yang telah dilakukan dapat disimpulkan:
 
-Object = Karakter  
-Method = Skill  
-Battle = Proses  
+- Konsep OOP membuat program lebih terstruktur  
+- Class memudahkan pengembangan karakter  
+- Polymorphism membuat game lebih dinamis  
+- Abstract class menjaga konsistensi program  
 
-Inilah kekuatan Object Oriented Programming.
+Pendekatan game RPG membantu memahami OOP dengan lebih menyenangkan.
 
 ---
 
