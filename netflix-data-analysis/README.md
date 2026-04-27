@@ -77,7 +77,7 @@ D --> E[Visualization Dashboard]
 ## 📊 Dashboard Preview
 
 <p align="center">
-  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZ3F5eWZyZ2Z5dWZ0b2R6N3d0b3RjZ2V5b2V4c2R1c3R6cWZqZyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/l0HlNaQ6gWfllcjDO/giphy.gif" width="500"/>
+  <img src="https://ibb.co/bMCV3d6F" width="500"/>
 </p>
 
 > ⚠️ Disarankan mengganti GIF ini dengan screenshot dashboard hasil project kamu sendiri.
