@@ -80,7 +80,6 @@ D --> E[Visualization Dashboard]
   <img src="https://i.ibb.co/sdN4P3gC/dashboard.png" width="500"/>
 </p>
 
-> ⚠️ Disarankan mengganti GIF ini dengan screenshot dashboard hasil project kamu sendiri.
 
 ---
 
